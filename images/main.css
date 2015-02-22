@@ -1,0 +1,352 @@
+/*ABOUT ME*/
+.aboutMe{
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    z-index: 4;
+}
+
+.aboutMeContent{
+    width: 640px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 680px;
+    text-align: center;
+}
+
+.aboutMeTitle{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: rgba(0,0,0,0.8);
+    margin-bottom: 8px;
+    outline: 0;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.aboutMeAvatar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.aboutMeAvatar .avatar{
+    display: block;
+    background-position: center;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    line-height: 0;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.aboutMeAvatar .avatar .avatarImage{
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+}
+
+.aboutMeDescription{
+    color: rgba(0,0,0,0.6);
+    font-size: 18px;
+    outline: 0;
+    word-break: break-word;
+    word-wrap: break-word;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+
+.skillsBlockList{
+    position: relative;
+    width: 100%;
+    background-color: inherit;
+    padding: 0;
+    min-height: 396px;
+}
+
+@media screen and (max-width:640px){
+    .skillsBlockList{
+        min-height: 792px;
+    }
+}
+
+.skillsBlockCol1{
+    position: relative;
+    display: block;
+    float: left;
+    width: 46%;
+    height: auto;
+}
+
+.skillsBlockCol2{
+    position: relative;
+    display: block;
+    float: right;
+    width: 46%;
+}
+
+@media screen and (max-width: 640px){
+    .skillsBlockCol1{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+    
+    .skillsBlockCol2{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.skillsBlockList .block{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+}
+
+.skillsBlockList .block .blockTitle{
+    display: block;
+    margin: 0;
+    padding: .5rem 0 0 0;
+    float: left;
+    width: 100%;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    word-break: break-word;
+    text-align: center;
+}
+
+.skillsBlockList .block .blockTitle h5{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    font-weight: 500;
+    font-family: inherit;
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.blockContent{
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    float: left;
+    text-align: left;
+    margin:0;
+}
+
+.blockProgress{
+    position: relative;
+    height: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+}
+
+.progressIndicator{
+    float: right;
+    width: 3em;
+    text-align: right;
+    height: 1em;
+    line-height: 1em;
+    color: #39d1b4 !important;
+}
+
+.progressBar{
+    position: absolute;
+    height: .4em;
+    left: 0;
+    right: 3em;
+    top: .3em;
+    background-color: #f0f0f0;
+}
+
+.progressBarComplete{
+    background-color: #39d1b4 !important;
+    height:100%;
+}
+
+/*Projects*/
+.works{
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: 150px;
+    padding: 35px 0 175px 0;
+    background-color: #fafafa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(worksB@2x.png);
+    background-color: #C3DDDA;
+}
+
+@media screen and (max-width: 1000px){
+    margin-top: 0;
+    margin-bottom: 0;
+    background-position: 55% 30px;
+}
+
+.worksContent{
+    width: 640px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.worksBlock{
+    width: 55%;
+}
+
+@media screen and (max-width:1000px){
+    .worksBlock{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .worksBlock{
+        width: 85%;
+    }
+}
+
+.worksBlockTitle{
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.worksBlockDescription{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@media screen and (max-width: 500px){
+    .worksBlockDescription{
+        font-size: 14px;
+    }
+}
+
+.contactMe{
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
+    z-index: 4;
+}
+
+.contactMeContent{
+    width: 640px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 680px;
+    text-align: center;
+}
+
+.contactMeTitle{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: rgba(0,0,0,0.8);
+    outline: 0;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.cMail{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: rgba(0,0,0,0.44);
+    padding: 25px 0 5px 0;
+}
+
+@media screen and (max-width:500px){
+    .cMail{
+        font-size: 15px;
+    }
+}
+
+.buttonsSet{
+    width: 100%;
+}
+
+.socialButton{
+    border-radius: 0;
+    box-shadow: none;
+    background: rgba(0,0,0,0);
+    height: auto;
+    line-height: inherit;
+    border-width: 0;
+    padding: 0;
+    vertical-align: baseline;
+    color: rgba(0,0,0,0.3);
+    white-space: normal;
+    color: rgba(0,0,0,0.3);
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.socialButton:last-child{
+    margin-right: 0;
+}
+
+.socialButton:hover, .socialButton:focus, .socialButton:active{
+    text-decoration: underline;
+    color: rgba(0,0,0,0.6);
+}
+
+.footer{
+    width: 100%;
+    background: #333;
+    color: rgba(255,255,255,.44);
+    padding: 45px 0;
+}
+
+.footerText{
+    display: block;
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: 300;
+    color: inherit;
+    text-align: center;
+}
+
+@media screen and (max-width:500px){
+    .footerText{
+        font-size: 12px;
+    }
+}
