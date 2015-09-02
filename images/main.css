@@ -173,6 +173,7 @@
     height: 1em;
     line-height: 1em;
     color: #39d1b4 !important;
+    display: none;
 }
 
 .progressBar{
@@ -182,6 +183,7 @@
     right: 3em;
     top: .3em;
     background-color: #f0f0f0;
+    width: 100%;
 }
 
 .progressBarComplete{

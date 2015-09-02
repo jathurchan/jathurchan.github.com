@@ -2,7 +2,11 @@
     position: relative;
     width: 100%;
     min-height: 320px;
-    background-color: #4E9AF9;
+    background-color: #4184f3;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     z-index: 1;
 }
 
@@ -55,63 +59,66 @@
 }
 
 .actionHero{
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
     color: #fff;
     display: block;
     font-family: 'Source Sans Pro','Helvetica Neue','Helvetica','Arial',sans-serif;
+    background-color:  rgba(255,255,255,.15);
     transition: border-color .2s ease;
-    border-color: #97c8ff;
+    /*border-color: rgba(255,255,255,.15);
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px;*/
     margin: 0 0 20px;
     padding: 15px 0;
     width: 33%;
     float: left;
     margin-left: 2%;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .actionHero:hover, .actionHero:active, .actionHero:focus{
     color: #fff;
-    background-color: #569CF6;
+    background-color: rgba(255,255,255,.25);
     transition: border-color .2s ease;
-    border-color: #fff;
+    border-color: rgba(255,255,255,.25);
 }
 
 .actionHero2{
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
     color: #fff;
     display: block;
     font-family: 'Source Sans Pro','Helvetica Neue','Helvetica','Arial',sans-serif;
+    background-color:  rgba(255,255,255,.15);
     transition: border-color .2s ease;
-    border-color: #97c8ff;
+    /*border-color: rgba(255,255,255,.15);
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px;*/
     margin: 0 0 20px;
     padding: 15px 0;
     width: 33%;
     float: left;
     margin-left: 2%;
     font-size: 15px;
-
+    text-transform: uppercase;
 }
 
 .actionHero2:hover, .actionHero2:active, .actionHero2:focus{
     color: #fff;
-    background-color: #569CF6;
+    background-color: rgba(255,255,255,.25);
     transition: border-color .2s ease;
-    border-color: #fff;
+    border-color: rgba(255,255,255,.25);
 }
 
 .actionHero3{
     background: #e9f3ff;
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
     clear: right;
     display: block;
-    color: #569CF6;
+    color: #4184f3;
     transition: background-color .2s ease;
     margin: 0 0 20px;
     padding: 16px 0;
@@ -119,6 +126,7 @@
     width: 27%;
     float: right;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .actionHero3:hover, .actionHero3:active, .actionHero3:focus{
